@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<style name="btnStyle">
-<item name="android:layout_width">0dp</item>
-<item name="android:layout_height">60dp</item>
-<item name="android:layout_columnWeight">1</item>
-<item name="android:layout_margin">6dp</item>
-<item name="android:backgroundTint">#6A3CBC</item>
-<item name="android:textColor">#FFFFFF</item>
-</style></resources>
+    <style name="btnStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#6B56A5</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="btnStyleWide">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#6B56A5</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
