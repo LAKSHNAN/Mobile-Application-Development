@@ -20,17 +20,11 @@ class MainActivity : AppCompatActivity() {
         etValue2 = findViewById(R.id.etValue2)
         tvResult = findViewById(R.id.tvResult)
 
-        val btnAdd: Button = findViewById(R.id.btnAdd)
-        val btnSub: Button = findViewById(R.id.btnSub)
-        val btnMul: Button = findViewById(R.id.btnMul)
-        val btnDiv: Button = findViewById(R.id.btnDiv)
-        val btnMod: Button = findViewById(R.id.btnMod)
-
-        btnAdd.setOnClickListener { calculate("+") }
-        btnSub.setOnClickListener { calculate("-") }
-        btnMul.setOnClickListener { calculate("*") }
-        btnDiv.setOnClickListener { calculate("/") }
-        btnMod.setOnClickListener { calculate("%") }
+        findViewById<Button>(R.id.btnAdd).setOnClickListener { calculate("+") }
+        findViewById<Button>(R.id.btnSub).setOnClickListener { calculate("-") }
+        findViewById<Button>(R.id.btnMul).setOnClickListener { calculate("*") }
+        findViewById<Button>(R.id.btnDiv).setOnClickListener { calculate("/") }
+        findViewById<Button>(R.id.btnMod).setOnClickListener { calculate("%") }
     }
 
     private fun calculate(op: String) {
